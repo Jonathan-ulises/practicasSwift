@@ -15,6 +15,9 @@
 		60EDB6D7269CE80800E4599C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60EDB6D5269CE80800E4599C /* LaunchScreen.storyboard */; };
 		60EDB6E0269CE9A600E4599C /* SegundoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60EDB6DF269CE9A600E4599C /* SegundoViewController.swift */; };
 		60EDB6E5269CF21100E4599C /* TercerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60EDB6E4269CF21100E4599C /* TercerViewController.swift */; };
+		60EDB6E9269CF52600E4599C /* SegundoStoryBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60EDB6E8269CF52600E4599C /* SegundoStoryBoard.storyboard */; };
+		60EDB6EC269CF56C00E4599C /* PssViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60EDB6EB269CF56C00E4599C /* PssViewController.swift */; };
+		60EDB6F5269CFC9A00E4599C /* SssViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60EDB6F4269CFC9A00E4599C /* SssViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +31,9 @@
 		60EDB6D8269CE80800E4599C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		60EDB6DF269CE9A600E4599C /* SegundoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegundoViewController.swift; sourceTree = "<group>"; };
 		60EDB6E4269CF21100E4599C /* TercerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TercerViewController.swift; sourceTree = "<group>"; };
+		60EDB6E8269CF52600E4599C /* SegundoStoryBoard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SegundoStoryBoard.storyboard; sourceTree = "<group>"; };
+		60EDB6EB269CF56C00E4599C /* PssViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PssViewController.swift; sourceTree = "<group>"; };
+		60EDB6F4269CFC9A00E4599C /* SssViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SssViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,15 +68,34 @@
 			children = (
 				60EDB6CA269CE80500E4599C /* AppDelegate.swift */,
 				60EDB6CC269CE80500E4599C /* SceneDelegate.swift */,
-				60EDB6CE269CE80500E4599C /* ViewController.swift */,
 				60EDB6D0269CE80500E4599C /* Main.storyboard */,
 				60EDB6D3269CE80700E4599C /* Assets.xcassets */,
 				60EDB6D5269CE80800E4599C /* LaunchScreen.storyboard */,
 				60EDB6D8269CE80800E4599C /* Info.plist */,
+				60EDB6E8269CF52600E4599C /* SegundoStoryBoard.storyboard */,
+				60EDB6F1269CFACE00E4599C /* Main */,
+				60EDB6F2269CFB2100E4599C /* SegundoSB */,
+			);
+			path = Navegacion;
+			sourceTree = "<group>";
+		};
+		60EDB6F1269CFACE00E4599C /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				60EDB6CE269CE80500E4599C /* ViewController.swift */,
 				60EDB6DF269CE9A600E4599C /* SegundoViewController.swift */,
 				60EDB6E4269CF21100E4599C /* TercerViewController.swift */,
 			);
-			path = Navegacion;
+			path = Main;
+			sourceTree = "<group>";
+		};
+		60EDB6F2269CFB2100E4599C /* SegundoSB */ = {
+			isa = PBXGroup;
+			children = (
+				60EDB6EB269CF56C00E4599C /* PssViewController.swift */,
+				60EDB6F4269CFC9A00E4599C /* SssViewController.swift */,
+			);
+			path = SegundoSB;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -131,6 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				60EDB6D7269CE80800E4599C /* LaunchScreen.storyboard in Resources */,
+				60EDB6E9269CF52600E4599C /* SegundoStoryBoard.storyboard in Resources */,
 				60EDB6D4269CE80700E4599C /* Assets.xcassets in Resources */,
 				60EDB6D2269CE80500E4599C /* Main.storyboard in Resources */,
 			);
@@ -143,9 +169,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60EDB6F5269CFC9A00E4599C /* SssViewController.swift in Sources */,
 				60EDB6E5269CF21100E4599C /* TercerViewController.swift in Sources */,
 				60EDB6CF269CE80500E4599C /* ViewController.swift in Sources */,
 				60EDB6CB269CE80500E4599C /* AppDelegate.swift in Sources */,
+				60EDB6EC269CF56C00E4599C /* PssViewController.swift in Sources */,
 				60EDB6E0269CE9A600E4599C /* SegundoViewController.swift in Sources */,
 				60EDB6CD269CE80500E4599C /* SceneDelegate.swift in Sources */,
 			);

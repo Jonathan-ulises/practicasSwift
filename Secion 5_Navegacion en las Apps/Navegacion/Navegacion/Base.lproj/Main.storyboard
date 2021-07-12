@@ -28,6 +28,16 @@
                                     <segue destination="iMt-LE-LlD" kind="show" identifier="irSegunda" id="asB-Rf-sbo"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G83-sX-4mi">
+                                <rect key="frame" x="135" y="566" width="145" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Navigation Controller">
+                                    <color key="titleColor" systemColor="labelColor"/>
+                                </state>
+                                <connections>
+                                    <segue destination="JGN-9I-9nk" kind="show" id="QXH-eH-yCa"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.0" green="0.56904578210000001" blue="0.57461684940000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -36,6 +46,16 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="531.8840579710145" y="76.339285714285708"/>
+        </scene>
+        <!--SegundoStoryBoard-->
+        <scene sceneID="hJP-uI-ODD">
+            <objects>
+                <viewControllerPlaceholder storyboardName="SegundoStoryBoard" id="JGN-9I-9nk" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="wX1-ew-Rkc"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7Ya-vS-qm7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="853" y="465"/>
         </scene>
         <!--Segundo View Controller-->
         <scene sceneID="4VL-sH-71Y">
@@ -126,7 +146,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="96J-WY-MR8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <exit id="t8l-7Q-y1x" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="2157.4766355140187" y="94.600431965442766"/>
+            <point key="canvasLocation" x="2153" y="76"/>
         </scene>
     </scenes>
     <resources>
