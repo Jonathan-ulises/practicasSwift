@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "A086DB52-4884-45F6-A1A8-01D21D47A737"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "037C3FEE-600B-4F8E-8EED-159DD28ABD22"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Navegacion/SegundoSB/SssViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "6"
+            endingLineNumber = "6"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  uuid = "037C3FEE-600B-4F8E-8EED-159DD28ABD22 - 5a51495eac8d328e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Navegacion.SssViewController.__deallocating_deinit"
+                  moduleName = "Navegacion"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/itsdiseno/Desktop/CursoSWIFT/Secion%205_Navegacion%20en%20las%20Apps/Navegacion/Navegacion/SegundoSB/SssViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "037C3FEE-600B-4F8E-8EED-159DD28ABD22 - cdc5f5acf2cc2f9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Navegacion.SssViewController.__allocating_init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Navegacion.SssViewController"
+                  moduleName = "Navegacion"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/itsdiseno/Desktop/CursoSWIFT/Secion%205_Navegacion%20en%20las%20Apps/Navegacion/Navegacion/SegundoSB/SssViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  uuid = "037C3FEE-600B-4F8E-8EED-159DD28ABD22 - 79792413ba154f2d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Navegacion.SssViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Navegacion.SssViewController"
+                  moduleName = "Navegacion"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/itsdiseno/Desktop/CursoSWIFT/Secion%205_Navegacion%20en%20las%20Apps/Navegacion/Navegacion/SegundoSB/SssViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "228">
+               </Location>
+               <Location
+                  uuid = "037C3FEE-600B-4F8E-8EED-159DD28ABD22 - ff20342245b8ae22"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Navegacion.SssViewController.__allocating_init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Navegacion.SssViewController&gt;"
+                  moduleName = "Navegacion"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/itsdiseno/Desktop/CursoSWIFT/Secion%205_Navegacion%20en%20las%20Apps/Navegacion/Navegacion/SegundoSB/SssViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  uuid = "037C3FEE-600B-4F8E-8EED-159DD28ABD22 - 67755cde0f741512"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Navegacion.SssViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Navegacion.SssViewController&gt;"
+                  moduleName = "Navegacion"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/itsdiseno/Desktop/CursoSWIFT/Secion%205_Navegacion%20en%20las%20Apps/Navegacion/Navegacion/SegundoSB/SssViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "148">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

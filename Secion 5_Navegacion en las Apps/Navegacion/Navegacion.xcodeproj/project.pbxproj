@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6034CADA269E44A3000AC9D5 /* TercerStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6034CAD9269E44A3000AC9D5 /* TercerStoryboard.storyboard */; };
+		6034CADD269E46B0000AC9D5 /* PtsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6034CADC269E46B0000AC9D5 /* PtsViewController.swift */; };
 		60EDB6CB269CE80500E4599C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60EDB6CA269CE80500E4599C /* AppDelegate.swift */; };
 		60EDB6CD269CE80500E4599C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60EDB6CC269CE80500E4599C /* SceneDelegate.swift */; };
 		60EDB6CF269CE80500E4599C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60EDB6CE269CE80500E4599C /* ViewController.swift */; };
@@ -21,6 +23,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6034CAD9269E44A3000AC9D5 /* TercerStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TercerStoryboard.storyboard; sourceTree = "<group>"; };
+		6034CADC269E46B0000AC9D5 /* PtsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PtsViewController.swift; sourceTree = "<group>"; };
 		60EDB6C7269CE80500E4599C /* Navegacion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Navegacion.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60EDB6CA269CE80500E4599C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		60EDB6CC269CE80500E4599C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -47,6 +51,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6034CADF269E46B8000AC9D5 /* TerceroSB */ = {
+			isa = PBXGroup;
+			children = (
+				6034CADC269E46B0000AC9D5 /* PtsViewController.swift */,
+			);
+			path = TerceroSB;
+			sourceTree = "<group>";
+		};
 		60EDB6BE269CE80500E4599C = {
 			isa = PBXGroup;
 			children = (
@@ -75,6 +87,8 @@
 				60EDB6E8269CF52600E4599C /* SegundoStoryBoard.storyboard */,
 				60EDB6F1269CFACE00E4599C /* Main */,
 				60EDB6F2269CFB2100E4599C /* SegundoSB */,
+				6034CAD9269E44A3000AC9D5 /* TercerStoryboard.storyboard */,
+				6034CADF269E46B8000AC9D5 /* TerceroSB */,
 			);
 			path = Navegacion;
 			sourceTree = "<group>";
@@ -158,6 +172,7 @@
 				60EDB6D7269CE80800E4599C /* LaunchScreen.storyboard in Resources */,
 				60EDB6E9269CF52600E4599C /* SegundoStoryBoard.storyboard in Resources */,
 				60EDB6D4269CE80700E4599C /* Assets.xcassets in Resources */,
+				6034CADA269E44A3000AC9D5 /* TercerStoryboard.storyboard in Resources */,
 				60EDB6D2269CE80500E4599C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -169,6 +184,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6034CADD269E46B0000AC9D5 /* PtsViewController.swift in Sources */,
 				60EDB6F5269CFC9A00E4599C /* SssViewController.swift in Sources */,
 				60EDB6E5269CF21100E4599C /* TercerViewController.swift in Sources */,
 				60EDB6CF269CE80500E4599C /* ViewController.swift in Sources */,

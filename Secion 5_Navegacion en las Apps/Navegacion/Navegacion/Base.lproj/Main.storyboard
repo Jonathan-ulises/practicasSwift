@@ -9,6 +9,16 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
+        <!--TercerStoryboard-->
+        <scene sceneID="O7y-jk-Fxu">
+            <objects>
+                <viewControllerPlaceholder storyboardName="TercerStoryboard" id="YXg-Hv-Xvo" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="M9j-rz-8Yb"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gMT-OU-36q" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="219" y="457"/>
+        </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
@@ -36,6 +46,16 @@
                                 </state>
                                 <connections>
                                     <segue destination="JGN-9I-9nk" kind="show" id="QXH-eH-yCa"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xdj-uh-VCM">
+                                <rect key="frame" x="145" y="652" width="124" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Tab Bar Controller">
+                                    <color key="titleColor" systemColor="labelColor"/>
+                                </state>
+                                <connections>
+                                    <segue destination="YXg-Hv-Xvo" kind="show" id="7AB-1f-6NX"/>
                                 </connections>
                             </button>
                         </subviews>
